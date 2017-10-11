@@ -12,8 +12,8 @@ class CouponsController < ApplicationController
     redirect_to coupon_path(@coupon)
   end
 
-  def show 
+  def show
     @coupon = Coupon.find(params[:id])
-  end 
+  end
 
 end
